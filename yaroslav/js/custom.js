@@ -56,7 +56,7 @@ $(function () {
   /* typejs
   -------------------------------------------------------*/
   $('.header .caption h2 span').typed({
-    strings: ["Front End Developer","React.JS Developer", "a Good Person"],
+    strings: ["Front End Developer","Junior React.JS Developer", "a Good Person"],
     loop: true,
     startDelay: 1000,
     backDelay: 2000
