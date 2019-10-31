@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstap4-->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--FontGoogle-->
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR:400,700|Signika:300,400,700&display=swap" rel="stylesheet">  
+    <!--FancyBox-->
+    <link rel="stylesheet" href="./libs/plagins/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./sass(css)/main.css">
+    
+    <title>MyPortfolio</title>
+  </head>
+<body>
+
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg bg-dark " id="nav" >
+  <div class="container">
+    <a class="navbar-brand" href="#">My works</a>
+    <div class=" justify-content-end " id="navbarTogglerDemo02">
+      <ul class="navbar-nav  mt-2 mt-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html" data-scroll="#about"><i class="fas fa-hand-point-left"></i>  Back to info</a>
+        </li>               
+      </ul>   
+    </div>
+  </div>
+</nav>
+
+<!-- Services Section -->
+<div id="services" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>My Services in video</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 service"> 
+        <i class="fa fa-laptop"></i>
+        <h4>Video editing</h4>
+        <p>I will do different complexity video montage videos finally can be and any duration.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service">
+        <i class="fas fa-film"></i></i></i>
+        <h4>Graphics & Animation</h4>
+        <p>I provide graphics services for video and animation effects.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> 
+        <i class="fa fa-rocket"></i>
+        <h4>VFX</h4>
+        <p>I make various visual effects for video clips.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service">
+        <i class="fas fa-video"></i>
+        <h4>Shooting</h4>
+        <p>I have been shooting various events for 3 years already.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>My Portfolio</h2>
+      <hr>
+      <p>Here you can see all my video works by category.</p>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 " style="margin-bottom: 60px;">
+           <button val="on" class="button focused" filter="all">All</button>
+           <button val="off" class="button" filter="wd">Video editing</button>
+           <button val="off" class="button" filter="ud">Graphics & Animation</button>
+           <button val="off" class="button" filter="moc">VFX</button>
+          </div>
+        </div>
+        <div class="gallery d-flex filter"  >
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+            <a data-fancybox="gallery" data-caption="Conferencione of IT company"  href="https://www.youtube.com/watch?v=L2KFPNBCTU4&feature=youtu.be">
+              <img src="./img/video1.png"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+            <div class="text">
+                <i class="far fa-play-circle"></i>
+              <h5>IT Conference</h5>
+           
+              </div>
+            </a>
+          </div>
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+            <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=sFjkivtImvU&feature=youtu.be">
+              <img src="./img/video2.png"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+              <div class="text">
+                  <i class="far fa-play-circle"></i>
+                <h5>Paintball game</h5>
+              
+              </div>    
+            </a>
+    
+          </div>
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+            <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=Z-9Lf1Sj680&feature=youtu.be">
+              <img src="./img/video3.png"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+              <div class="text">
+                  <i class="far fa-play-circle"></i>
+                <h5>Comercial</h5>
+               
+             </div>
+            </a>
+                          
+                
+          </div>
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+            <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=CYPpuEN1E7c&feature=youtu.be">
+              <img src="./img/Безымянный2.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+              <div class="text">
+                  <i class="far fa-play-circle"></i>
+                <h5>Eplemost</h5>
+             
+             </div>
+            </a>       
+          </div> 
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+            <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=iY__O0hNodQ">
+              <img src="./img/Безымянный11.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+              <div class="text">
+                  <i class="far fa-play-circle"></i>
+                <h5>Eplemost</h5>
+                
+             </div>
+            </a>       
+          </div> 
+          <div filter="ud" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+              <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=LjE_Xh2M-U0">
+                <img src="./img/Безымянный4.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                <div class="text">
+                    <i class="far fa-play-circle"></i>
+                  <h5>Eplemost</h5>
+      
+               </div>
+              </a>       
+            </div> 
+          <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+              <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=-Uul-v5wOSo">
+                <img src="./img/Безымянный10.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                <div class="text">
+                    <i class="far fa-play-circle"></i>
+                  <h5>Eplemost</h5>
+                 
+               </div>
+              </a>       
+            </div> 
+            <div filter="ud" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=MAzhNFTRvf0">
+                  <img src="./img/Безымянный7.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                  <div class="text">
+                      <i class="far fa-play-circle"></i>
+                    <h5>Eplemost</h5>
+        
+                 </div>
+                </a>       
+              </div> 
+            <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=eI-uYomFIwA">
+                  <img src="./img/Безымянный9.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                  <div class="text">
+                      <i class="far fa-play-circle"></i>
+                    <h5>Eplemost</h5>
+        
+                 </div>
+                </a>       
+              </div> 
+              <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                  <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=WrcLkLZe1Ok&t=67s">
+                    <img src="./img/Безымянный8.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                    <div class="text">
+                        <i class="far fa-play-circle"></i>
+                      <h5>Eplemost</h5>
+          
+                   </div>
+                  </a>       
+                </div> 
+                <div filter="wd" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                    <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=-Yrc_IYqwj8&feature=youtu.be">
+                      <img src="./img/Безымянный1.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                      <div class="text">
+                          <i class="far fa-play-circle"></i>
+                        <h5>Eplemost</h5>
+            
+                     </div>
+                    </a>       
+                  </div> 
+                <div filter="ud" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                    <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=J1xloMjNp48">
+                      <img src="./img/Безымянный6.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                      <div class="text">
+                          <i class="far fa-play-circle"></i>
+                        <h5>Eplemost</h5>
+            
+                     </div>
+                    </a>       
+                  </div> 
+                  <div filter="ud" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                      <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=yHIWjnSj6gk">
+                        <img src="./img/Безымянный5.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                        <div class="text">
+                            <i class="far fa-play-circle"></i>
+                          <h5>Eplemost</h5>
+              
+                       </div>
+                      </a>       
+                    </div> 
+                     <div filter="ud" class="col-sm-6 col-md-3 col-lg-3 mb15" >
+                      <a data-fancybox="gallery" data-caption="My caption dfdfdfd"  href="https://www.youtube.com/watch?v=f-ffPB--3gU&feature=youtu.be">
+                        <img src="./img/Безымянный.jpg"   alt="" style= "box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+                        <div class="text">
+                            <i class="far fa-play-circle"></i>
+                          <h5>Eplemost</h5>
+              
+                       </div>
+                      </a>       
+                    </div> 
+               
+          
+        </div>  
+      </div>
+    </div>    
+  </div>
+</div>
+<!-- Footer Section -->
+<footer class="mt" id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2019 Yarik Shelest. </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts Section -->
+<script src="./libs/jquery/jquery-3.4.1.min.js" defer  ></script>   
+<script src="./libs/plagins/jquery.fancybox.min.js" defer></script>        
+<script src="./js/app-portfolio.js" defer></script>
+</body>
+</html>
